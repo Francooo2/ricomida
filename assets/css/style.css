@@ -1,0 +1,112 @@
+.none {
+    display: none;
+}
+.dbl {
+    color: red;
+}
+.danger {
+    background-color: #DC3545;
+}
+.specificdark {
+    background-color      : #373A3C
+}
+.color_specificdark {
+    color      : #373A3C
+}
+.logofont {
+    font-family: 'Lobster', cursive;
+}
+.navfont {
+    font-family: 'Cabin', sans-serif;
+    font-size  : 16px;
+    font-weight: 400;
+}
+.titlefont {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    width      : 50%;
+    padding-top: 1.5em;
+}
+.titlefonttwo {
+    font-family   : 'Cabin', sans-serif;
+    font-weight   : 700;
+    font-size     : 2.5em;
+    padding-top   : 0.5em;
+    padding-bottom: 1.5em;
+}
+.subtitlefont {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size  : 1.2rem;
+    width      : 95%;
+}
+.newsletter {
+    font-family   : 'Cabin', sans-serif;
+    font-weight   : 700;
+}
+.normalfont {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+.img_carrusel {
+    width: 23%;
+}
+.carruselspecial {
+    position     : initial;
+    margin-top   : 1em;
+}
+.carousel-indicators [data-bs-target] {
+    width : 10px;
+    height: 10px;
+}
+.speciallist {
+    list-style   : none;
+    padding      : 0;
+    margin-bottom: 1.3em;
+}
+.paddingauxiliar {
+    padding-top: 1.6em;
+}
+.paragraph_width {
+    width: 65%;
+}
+
+@media (max-width: 768px) {
+    .titlefont {
+        font-family: 'Cabin', sans-serif;
+        font-size  : 1.8rem;
+        font-weight: 700;
+        text-align : center;
+        width      : 100%;
+        padding-top: .5em;
+    }
+    .subtitlefont {
+        text-align: center;
+        font-size : 1rem;
+    }
+    .paddingauxiliar {
+        padding-top: 0;
+    }
+    .paragraph_width {
+        width      : 90%;
+        line-height: 1.9;
+        /* text-align: justify; */
+    }
+    .titlefonttwo {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 700;
+        font-size  : 1.2em;
+    }
+  }
+
+@media (max-width: 480px) {
+    .paddingspecial {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .normalfont {
+        font-size     : 11.5px;
+        padding-top   : 1em;
+        padding-bottom: 1em;
+    }
+  }
